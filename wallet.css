@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    color: #000;
+    background-color: #FFF;
+}
+
+.coin-counter {
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    /* transition: 0.3s; This Css Property Is Not Working In This */
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+cursor: pointer;
+}
+
+.coin-counter:hover {
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+background: linear-gradient(to right, #f5af19, #f12711);
+}
+
+.ree-ti {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#paytym {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.paytyms {
+    display: inline-block;
+    border: none;
+    padding: 20px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+}
+
+.paytyms:hover {
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+background: linear-gradient(to right, #f5af19, #f12711);
+}
